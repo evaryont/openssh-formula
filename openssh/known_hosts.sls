@@ -3,6 +3,7 @@
 check for existing dig:
   cmd.run:
     - name: which dig
+    - output_loglevel: quiet
 
 ensure dig is available:
   pkg.installed:
